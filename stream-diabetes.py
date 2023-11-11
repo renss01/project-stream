@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+model = pickle.load(open('diabetes_model.sav','rb'))
 
 
 
